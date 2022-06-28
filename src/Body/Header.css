@@ -1,0 +1,22 @@
+#contenedor {
+
+
+    background-color: #FEC115;
+    border-bottom: 2px solid #000;
+
+}
+
+#titlePage{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    font-weight:bolder;
+    font-size: 24px;
+}
+
+#btnGroup{
+    padding-right: 10px;
+}
+
+.space {
+    margin-right: 5px !important;
+}
