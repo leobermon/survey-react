@@ -1,5 +1,5 @@
 
-import './Header.css';
+import '../styles/Header.css';
 import logo from '../assets/logoTest.png';
 
 function Header() {
@@ -7,19 +7,19 @@ function Header() {
     return (
         <div className="Header">
 
-            <nav class="navbar" id='contenedor'>
-                <a class="navbar-brand" >
-                    <img src={logo} width="30" height="30" class="d-inline-block align-top" alt="" />
+            <nav className="navbar" id='contenedor'>
+                <a className="navbar-brand" >
+                    <img src={logo} width="40" height="40" className="d-inline-block align-top" alt="" />
                     <label id="titlePage" > Respondiendo  </label>
 
                 </a>
 
-                <form class="d-flex">
+                <form className="d-flex">
 
-                    <button type="button" class="space btn btn-outline-dark">FAQ</button>
-                    <button type="button" class="space btn btn-outline-dark">About</button>
+                    <button type="button" className="space btn btn-outline-dark">FAQ</button>
+                    <button type="button" className="space btn btn-outline-dark">About</button>
 
-                    <button type="button" class="space btn btn-dark">
+                    <button type="button" className="space btn btn-dark">
                         Iniciar Sesion
                     </button>
 

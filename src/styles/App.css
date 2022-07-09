@@ -1,0 +1,34 @@
+.container{
+  margin-top: 5rem;
+}
+
+#RandomQuestion {
+  font-size: 40px;
+  font-family: 'Trispace', sans-serif;
+  color:Black;
+}
+
+#mainTitle{
+  font-size: 70px;
+  color: #140c40;
+}
+
+#btnResponder{
+  border-radius: 30px;
+}
+
+#soloQuestion {
+  margin-left: 10px;
+
+
+  font-family: 'Trispace', sans-serif;
+  color: #475FFF;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+#spanOne{
+  background-color: #F7F8FA;
+  color: #4D7FEE;
+
+}

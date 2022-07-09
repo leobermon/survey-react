@@ -1,16 +1,15 @@
 #contenedor {
-
-
-    background-color: #FEC115;
-    border-bottom: 2px solid #000;
-
+    background-color: #FFFEFE;
+    box-shadow: 2px 2px 5px #999;
+    padding: 15px;
 }
 
 #titlePage{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Trispace', sans-serif;
     color: black;
     font-weight:bolder;
     font-size: 24px;
+    margin-left: 20px;
 }
 
 #btnGroup{

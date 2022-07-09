@@ -1,20 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+
 import App from './Body/App';
 import Header from './Body/Header';
 import reportWebVitals from './reportWebVitals';
 import SuggestedQuestions from './Components/SuggestedQuestions';
+import Carrousel from './Components/Carrousel';
+import MsnTopHeader from './Components/MsnTopHeader';
+import Information from './Components/Information';
+import Footer from './Body/Footer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-
+    <MsnTopHeader/>
     <Header/>
     <App />
+    <Carrousel/>
+    <Information/>
     <SuggestedQuestions/>
-
+    <Footer/>
   </React.StrictMode>
 );
 
